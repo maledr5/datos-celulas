@@ -1,0 +1,109 @@
+$white: #fff;
+$main-color: #46c0ba;
+$sec-color: #ff6469;
+$grey:#686969;
+$font-prim: 'Dosis', sans-serif;
+$font-sec: 'Roboto', sans-serif;
+$font-cond: 'Roboto Condensed', sans-serif;
+$font-headings: 'Roboto Slab', serif;
+
+body {
+	padding: 3em 5em;
+}
+
+@media (max-width: 400px) {
+	body { padding:1em; }
+}
+
+h1 {
+	font-family: $font-prim;
+	font-size: 3em;
+	font-weight: 200;
+	color: $main-color;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: $font-prim;
+	font-size: 2em;
+	font-weight: 200;
+	color: $main-color;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h3 {
+	font-family: $font-sec;
+	font-size: 1em;
+	color: $sec-color;
+	font-weight: 200;
+	margin: 1.3em 0;
+}
+
+p {
+	font-family: $font-sec;
+	font-size: 1em;
+	font-weight: 200;
+	color: $grey;
+	margin: 0;
+	margin: 0 2px;
+    line-height: 25px;
+}
+
+hr {
+	border: none;
+	width: 100%;
+	border-top: solid 2px $main-color;
+	margin-bottom: 2em;
+}
+
+a.main {
+	font-family: $font-sec;
+	color: $grey;
+	text-decoration: underline;
+	font-size: 1em;
+	font-weight: 100;
+	margin-right: 1.3em;
+}
+
+a.main:hover {
+	color: $main-color;
+}
+
+a.main:active {
+	color: $main-color;
+	text-decoration: underline;
+}
+
+.margin-bottom-5 {
+	margin-bottom: 5px;
+}
+
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+
+
+.margin-bottom-15 {
+	margin-bottom: 15px;
+}
+
+
+.margin-bottom-30 {
+	margin-bottom: 30px;
+}
+
+.block {
+	display: block;
+}
+
+.report-list {
+	line-height: 25px;
+}
+
+.year-reports {
+	display:inline-block;
+	margin-right: 150px;
+}
