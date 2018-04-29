@@ -1,0 +1,2 @@
+# Spreadsheets
+ALL_GROUPS_SPREADSHEET_ID = '1szz7cqyacA8aRie3Gz8m7YnSTbFjRZIxmB0TLVuxda4'

@@ -1,5 +1,10 @@
 # READ ME
 
+
+## About
+Personal Project
+This project will create single files for consolidacion per leader for the master file. The goal is that the configuration of the files is always the same and any change can be reflected in all files, so I don´t have to change them one by one everytime a new feature is available.
+
 ## Requirements
 
 ### [Pip](https://pip.pypa.io/en/stable/installing/)
@@ -38,3 +43,8 @@ Quit virtual env:
 deactivate
 ```
 
+To install new python packages:
+
+```
+pipenv install <packageName>
+```
